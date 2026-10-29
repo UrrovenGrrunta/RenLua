@@ -50,7 +50,7 @@ RenLua/
 Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RenLua.git
+git clone https://github.com/UrrovenGrrunta/RenLua.git
 cd RenLua
 ```
 

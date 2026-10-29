@@ -4,11 +4,12 @@ local currentLine = 1
 local dialogue = require("scripts.test")
 local characters = require("characters")
 local textColor = {1,1,1,1}
-local dialogueFont = love.graphics.newFont("fonts/DejaVuSans.ttf", 24)
+local dialogueFont
 
 function love.load()
     love.window.setTitle("Ren'Lua")
     love.window.setMode(1280, 720)
+    dialogueFont = love.graphics.newFont("fonts/DejaVuSans.ttf", 24)
 end
 
 -- Окно текста

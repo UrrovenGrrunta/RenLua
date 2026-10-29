@@ -1,6 +1,6 @@
 local dialogue = {
     {
-        speaker = "e;l" 
+        speaker = "el", 
         text="Привет, Дваче"
     },
     {
